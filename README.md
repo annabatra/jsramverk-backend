@@ -2,7 +2,7 @@ This project is built with node.js framework Express and database SQLite. Repo `
 
 [![Build Status](https://travis-ci.org/annabatra/jsramverk-backend.svg?branch=master)](https://travis-ci.org/annabatra/jsramverk-backend)
 
-https://scrutinizer-ci.com/g/annabatra/jsramverk-backend/badges/quality-score.png?b=master
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/annabatra/jsramverk-backend/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/annabatra/jsramverk-backend/?branch=master)
 
 ## Installations
 `npm init`
