@@ -3,10 +3,10 @@ var router = express.Router();
 const db = require("../db/database.js");
 const bodyParser = require("body-parser");
 
-let config = require('../config/config.json');
+// let config = require('../config/config.json');
 const jwt = require('jsonwebtoken');
 
-const jwtSecret = config.secret;
+const jwtSecret = process.env.secret;
 
 
 router.use(bodyParser.json());

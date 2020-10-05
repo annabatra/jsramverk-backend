@@ -11,10 +11,10 @@ const jwt = require('jsonwebtoken');
 router.use(express.json());
 
 
-let config = require('../config/config.json');
+// let config = require('../config/config.json');
 
 
-const secret = process.env.JWT_SECRET || config.secret;
+const secret = process.env.secret;
 
 // Get route for login
 router.get("/", function(req, res) {
